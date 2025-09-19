@@ -1,4 +1,4 @@
-import AnnouncementCard from '../../components/AnnouncementCard'
+import AnnouncementCard from '../../../components/AnnouncementCard'
 
 export default function MatangazoPage() {
   return (
