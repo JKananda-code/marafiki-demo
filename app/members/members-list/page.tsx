@@ -1,28 +1,36 @@
+import MemberProfileCard from '../../../components/MemberProfileCard'
+
 export default function MembersListPage() {
   const members = [
-    { name: 'Dan Mugo', role: 'Founder & Treasurer' },
-    { name: 'Wycliffe Oduor', role: 'Founder & Events Coordinator' },
-    { name: 'Sister Njeri', role: 'Founder & Spiritual Advisor' },
-    { name: 'Grace Mwangi', role: 'Communications Lead' },
-    { name: 'Peter Kamau', role: 'Youth Liaison' },
-    { name: 'Jane Wanjiku', role: 'Membership Secretary' },
+    {
+      name: 'Dan Mugo',
+      role: 'Founder & Treasurer',
+      bio: 'Dan has been instrumental in shaping the financial structure of Marafiki and mentoring youth in STEM.',
+      email: 'dan.mugo@example.com',
+    },
+    {
+      name: 'Wycliffe Oduor',
+      role: 'Founder & Events Coordinator',
+      bio: 'Wycliffe brings energy and vision to community events, ensuring every gathering is meaningful.',
+      email: 'wycliffe.od@example.com',
+    },
+    {
+      name: 'Sister Njeri',
+      role: 'Founder & Spiritual Advisor',
+      bio: 'A pillar of wisdom and compassion, Sister Njeri supports members through life’s transitions.',
+    },
   ]
 
   return (
-    <div className="space-y-6 max-w-3xl mx-auto">
-      <h2 className="text-2xl font-bold text-blue-900">Registered Members</h2>
-      <p className="text-gray-700">
-        Below is a sample list of Marafiki members. This section will eventually include full member profiles and contact details for internal use.
-      </p>
+    <div className="space-y-6 max-w-4xl mx-auto">
+      <h2 className="text-2xl font-bold text-blue-900">Member Profiles</h2>
+      <p className="text-gray-700">Meet the people who make Marafiki thrive.</p>
 
-      <ul className="divide-y divide-gray-200">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {members.map((member, index) => (
-          <li key={index} className="py-3">
-            <p className="font-semibold text-gray-800">{member.name}</p>
-            <p className="text-sm text-gray-500">{member.role}</p>
-          </li>
+          <MemberProfileCard key={index} {...member} />
         ))}
-      </ul>
+      </div>
     </div>
   )
 }
