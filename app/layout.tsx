@@ -1,15 +1,19 @@
-import './globals.css'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+import './globals.css'
+
+export const metadata = {
+  title: 'Marafiki Association',
+  description: 'Supporting Kenyans in the diaspora',
+}
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>
+      <body className="bg-gray-50">
         <Navbar />
-        <main className="p-6">{children}</main>
-        <footer className="bg-gray-100 text-center p-4 text-sm text-gray-600">
-          &copy; {new Date().getFullYear()} Marafiki. All rights reserved.
-        </footer>
+        <main className="px-6 py-8">{children}</main>
+        <Footer />
       </body>
     </html>
   )
