@@ -24,6 +24,12 @@ export default function MembersDashboard() {
           description="Read updates and summaries from the Treasurer."
           href="/members/treasurer-report"
         />
+        <DashboardCard
+          title="Tech Committee"
+          description="Oversight of website content and editorial policy."
+          href="/members/committees/tech"
+/>
+
       </div>
     </div>
   )
