@@ -18,7 +18,7 @@ export default function AuthButtons() {
 
           <Link href="/apply">
             <button className="bg-yellow-600 text-white px-6 py-2 rounded-md shadow hover:bg-yellow-500 transition">
-              Sign Up Request
+              Membership Request
             </button>
           </Link>
         </>
