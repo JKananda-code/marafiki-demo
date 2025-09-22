@@ -10,6 +10,16 @@ export default function PublicDashboard() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <DashboardCard
+          title="About Marafiki"
+          description="Learn about our origins and mission."
+          href="/public/about"
+        />
+        <DashboardCard
+          title="Contact Us"
+          description="Reach out to the Marafiki team for support or inquiries."
+          href="/public/contact"
+        />      
+        <DashboardCard
           title="Matangazo Newsletter"
           description="Stay updated with community news and announcements."
           href="/public/matangazo"
@@ -28,17 +38,7 @@ export default function PublicDashboard() {
           title="Archive"
           description="Preserve and explore Marafiki’s historical milestones."
           href="/public/archive"
-        />
-        <DashboardCard
-          title="About Marafiki"
-          description="Learn about our origins and mission."
-          href="/public/about"
-        />
-        <DashboardCard
-          title="Contact Us"
-          description="Reach out to the Marafiki team for support or inquiries."
-          href="/public/contact"
-        />
+        />   
       </div>
     </div>
   )
