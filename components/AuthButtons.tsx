@@ -9,7 +9,7 @@ export default function AuthButtons() {
       {!user && (
         <>
           <Link href="/sign-in">
-            <button className="bg-blue-800 text-white px-6 py-2 rounded-md shadow hover:bg-blue-700 transition text-centerSSS">
+            <button className="bg-blue-800 text-white px-6 py-2 rounded-md shadow hover:bg-blue-700 transition text-center">
               Sign In
             </button>
           </Link>
