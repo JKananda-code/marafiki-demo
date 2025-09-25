@@ -4,10 +4,13 @@ export default function MatangazoPage() {
   return (
   
     <div className="space-y-6 max-w-4xl mx-auto">
-      <h2 className="text-2xl font-bold text-green-800">Matangazo Newsletter</h2>
+      <h2 className="text-2xl font-bold text-green-800 text-center">Matangazo Newsletter</h2>
       <p className="text-gray-700">
         Welcome to Matangazo—your source for community updates, initiatives, and shared moments.
       </p>
+
+      <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-md shadow-sm mb-6">
+    
 
     <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-md shadow-sm mb-6">
       <div className="flex items-center gap-3">
@@ -45,7 +48,40 @@ export default function MatangazoPage() {
   <p><strong>Please, let us work together to ensure this Forum remains a positive and welcoming space for everyone.</strong></p>
 
   <p className="italic text-gray-600">—Chairman, Marafiki Association</p>
+  
+  <div className="flex items-center gap-3">
+      <span className="text-blue-500 text-xl">📝</span>
+      <h3 className="text-lg font-semibold text-blue-800">From Chairman’s Desk: Opportunity for Black Entrepreneurs</h3>
+    </div>
+    </div>
+
+
+<div className="space-y-4 text-gray-800">
+  <p><strong>Hello!</strong></p>
+
+  <p>Applications for the <strong>TD Propelling Black Entrepreneurship Program</strong> are now open!</p>
+
+  <p>In partnership with TD Bank, this program is designed with Black entrepreneurs in mind—especially those who need assistance producing key documentation for their businesses.</p>
+
+  <p>We understand how challenging the early phases of entrepreneurship can be, and this program is here to provide the guidance, resources, and support you need to move forward with confidence.</p>
+
+  <h4 className="font-semibold text-gray-700">Eligibility Requirements</h4>
+  <ul className="list-disc pl-5 space-y-2">
+    <li>Business operating in Canada for five years or less</li>
+    <li>Identified as a Black-owned business</li>
+    <li>Possession of a business registration number</li>
+    <li>In need of a business plan, financial statements, and/or tax filing services</li>
+    <li>Must be a citizen or permanent resident of Canada</li>
+  </ul>
+
+  <p className="text-red-600 font-semibold">Deadline to apply: October 24, 2025</p>
+
+  <p className="italic text-gray-600">—Chairman Patrick Miano</p>
 </div>
+
+</div>
+
+<hr className="my-6 border-gray-300" />
 
 <h1 className=" Content above was posted by Chairman in Whatsup Group but what is below is Dummy"> </h1>
 
