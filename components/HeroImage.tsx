@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import myImage from '../public/kenya-canada.png';
+import myImage from '../public/Marafiki-Hero-Image.jpeg';
 export default function HeroImage() {
   return (
     <div className="flex justify-center items-center w-full overflow-hidden rounded-lg shadow-md">
